@@ -6,3 +6,4 @@
 * Website: kudovisual.github.io
 # Thông tin
 * KudoVisual đã xóa bản gốc của 7depzaidev.
+* Linh tinh khong duaaa?
