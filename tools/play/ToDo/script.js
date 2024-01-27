@@ -1,5 +1,4 @@
-// Khi trang được tải, tải các công việc từ localStorage
-document.addEventListener('DOMContentLoaded', loadTasks);
+document.addEventListener('DOMContentLoaded', loadTasks); // Ghi nhớ tasks nếu F5 (reload), nhưng khi vào lại trang web (nhập lại ở thanh địa chỉ) thì dữ liệu biến mất.
 
 // Hàm để thêm một công việc mới
 function addTask() {
