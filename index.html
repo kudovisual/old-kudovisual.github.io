@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="light dark">
-    <meta http-equiv="refresh" content="0; url=https://kudovisual.github.io">
-    <title>kudovisual</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>kudooNew (Beta)</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div class="progress">
-        <div class="indeterminate"></div>
+    <div class="container">
+        <h1>Chào mừng đến trang của tôi!</h1>
+        <p>Tôi là kudo! Mơ ước của tôi là thành một lập trình viên. Hiện tại tôi đã làm được.</p>
+        <div class="social-links">
+            <a href="https://github.com/kudovisual" target="_blank">
+                <img src="github-logo.png" alt="GitHub">
+            </a>
+            <a href="https://facebook.com/kudozzzz" target="_blank">
+                <img src="facebook-logo.png" alt="Facebook">
+            </a>
+        </div>
+        <button id="helloButton">Hello</button>
     </div>
-    <script>
-        window.onload = function () { window.location.href = "/home.php"; }
-    </script>
+    <div id="notificationBackdrop" class="notification-backdrop"></div>
+    <div id="notification" class="notification">
+        <div class="notification-content">
+            <img src="checkmark.png" alt="Checkmark">
+            <span>Thế thì tôi cùng chào bạn :) </span>
+            <button id="okButton">OK</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
