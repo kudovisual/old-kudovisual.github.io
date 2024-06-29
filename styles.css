@@ -134,3 +134,14 @@ p {
     background-color: #28a745;
     color: #ffffff;
 }
+
+.image-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.rounded-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Bo tròn hình ảnh */
+}
